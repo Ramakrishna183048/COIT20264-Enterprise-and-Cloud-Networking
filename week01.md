@@ -13,7 +13,7 @@ This week introduced the fundamentals of cloud computing and Microsoft Azure. Th
 
 ## Task 1 Screenshot
 
-![Cisco Packet Tracer Home Network](images/week1-task1-topology.png)
+![Cisco Packet Tracer Home Network](images/week1-task1-network-diagram.png)
 
 ### Task 2 – Microsoft Azure Registration
 - Created a Microsoft Azure student account using the CQUniversity email.
