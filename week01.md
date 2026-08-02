@@ -11,6 +11,10 @@ This week introduced the fundamentals of cloud computing and Microsoft Azure. Th
 - Designed and simulated a basic home network.
 - Included the network topology screenshot and design rationale.
 
+## Task 1 Screenshot
+
+![Cisco Packet Tracer Home Network](images/week1-task1-topology.png)
+
 ### Task 2 – Microsoft Azure Registration
 - Created a Microsoft Azure student account using the CQUniversity email.
 - Registered for the Microsoft Learn training course **using the provided training key**.
