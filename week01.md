@@ -28,7 +28,7 @@ Create a Microsoft Azure student account using the CQUniversity email and regist
 
 ### Screenshot
 
-![Microsoft Learn Registration](images/task2-view-agreement.png)
+![Microsoft Learn Registration](images/week1-task2-view-agreement.png)
 
 ### Outcome
 Successfully completed the Microsoft Learn course registration and verified enrollment through the View Agreement page.
