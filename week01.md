@@ -20,7 +20,6 @@ I installed and registered Cisco Packet Tracer and created a basic home network.
 ```
   Router0
     Interface: FastEthernet0/0
-    IP Address: 192.168.1.1/24
 
   PC0
     IP Address: 192.168.1.2
@@ -35,12 +34,12 @@ I installed and registered Cisco Packet Tracer and created a basic home network.
   PC2
     IP Address: 192.168.1.4
     Subnet Mask: 255.255.255.0
-    Default Gateway: 192.168.1.1
+    Default Gateway: 192.168.2.1
 
   PC3
     IP Address: 192.168.1.5
     Subnet Mask: 255.255.255.0
-    Default Gateway: 192.168.1.1
+    Default Gateway: 192.168.2.1
 ``` 
 - Ethernet cables
 - IP addressing configuration
