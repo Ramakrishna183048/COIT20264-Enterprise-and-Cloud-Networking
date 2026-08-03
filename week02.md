@@ -37,9 +37,9 @@ In this task, I successfully created a Virtual Machine using the Microsoft Azure
 
 ### Screenshots
 
-![Azure Virtual Machine](images/task1-vm-created.png)
+![Azure Virtual Machine](images/week2-task2-myvm.png)
 
-![Azure Virtual Machine](images/task1-vm-created.png)
+![Azure Virtual Machine](images/week2-task2-.png)
 
 ### Outcome
 
