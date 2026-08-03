@@ -35,7 +35,9 @@ In this task, I successfully created a Virtual Machine using the Microsoft Azure
 - Azure Resource Management
 - Cloud Infrastructure (IaaS)
 
-### Screenshot
+### Screenshots
+
+![Azure Virtual Machine](images/task1-vm-created.png)
 
 ![Azure Virtual Machine](images/task1-vm-created.png)
 
