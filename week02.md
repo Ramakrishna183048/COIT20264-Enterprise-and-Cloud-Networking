@@ -65,6 +65,7 @@ I successfully created an Azure Virtual Machine using the Microsoft Azure Portal
 ### Screenshot
 
 ![Azure Virtual Machine Overview](images/week2-task2-creat-virtual.png)
+![Azure Virtual Machine Overview](images/week2-task2-myvm.png)
 
 ### Outcome
 Successfully deployed and verified an Azure Virtual Machine using the Microsoft Azure Portal.
