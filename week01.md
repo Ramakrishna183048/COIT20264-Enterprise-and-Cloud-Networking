@@ -7,9 +7,50 @@ This week introduced the fundamentals of cloud computing and Microsoft Azure. Th
 ## Portfolio Tasks
 
 ### Task 1 – Cisco Packet Tracer Home Network
-- Installed and registered Cisco Packet Tracer.
-- Designed and simulated a basic home network.
-- Included the network topology screenshot and design rationale.
+
+### Description
+I installed and registered Cisco Packet Tracer and created a basic home network. The network was designed with a router, a switch, and four PCs connected using Ethernet cables. Each PC was configured with a unique IP address to simulate communication within a local area network (LAN).
+
+### Network Components
+- 1 × Router (Cisco 2811)
+- 1 × Switch (Cisco 2960-24TT)
+- 4 × PCs
+ ### IP Address Configuration
+
+```
+  Router0
+    Interface: FastEthernet0/0
+    IP Address: 192.168.1.1/24
+
+  PC0
+    IP Address: 192.168.1.2
+    Subnet Mask: 255.255.255.0
+    Default Gateway: 192.168.1.1
+
+  PC1
+    IP Address: 192.168.1.3
+    Subnet Mask: 255.255.255.0
+    Default Gateway: 192.168.1.1
+
+  PC2
+    IP Address: 192.168.1.4
+    Subnet Mask: 255.255.255.0
+    Default Gateway: 192.168.1.1
+
+  PC3
+    IP Address: 192.168.1.5
+    Subnet Mask: 255.255.255.0
+    Default Gateway: 192.168.1.1
+``` 
+- Ethernet cables
+- IP addressing configuration
+
+### Skills Demonstrated
+- Cisco Packet Tracer installation and registration
+- Basic network topology design
+- Device connectivity
+- IP address configuration
+- Local Area Network (LAN) simulation
 
 ## Task 1 Screenshot
 
