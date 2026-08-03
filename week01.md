@@ -22,22 +22,22 @@ I installed and registered Cisco Packet Tracer and created a basic home network.
     Interface: FastEthernet0/0
 
   PC0
-    IP Address: 192.168.1.2
+    IP Address: 192.168.1.10
     Subnet Mask: 255.255.255.0
     Default Gateway: 192.168.1.1
 
   PC1
-    IP Address: 192.168.1.3
+    IP Address: 192.168.1.20
     Subnet Mask: 255.255.255.0
     Default Gateway: 192.168.1.1
 
   PC2
-    IP Address: 192.168.1.4
+    IP Address: 192.168.2.10
     Subnet Mask: 255.255.255.0
     Default Gateway: 192.168.2.1
 
   PC3
-    IP Address: 192.168.1.5
+    IP Address: 192.168.2.20
     Subnet Mask: 255.255.255.0
     Default Gateway: 192.168.2.1
 ``` 
