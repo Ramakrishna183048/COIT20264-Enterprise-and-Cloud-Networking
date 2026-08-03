@@ -1,5 +1,5 @@
-
-# Week 1 – Introduction to Cloud Computing and Microsoft Azure
+# week01
+## Introduction to Cloud Computing and Microsoft Azure
 
 ## Overview
 This week introduced the fundamentals of cloud computing and Microsoft Azure. The practical activities included setting up Cisco Packet Tracer, creating a Microsoft Azure student account, registering for the Microsoft Learn training course using the provided training key, and exploring Azure cloud service models.
