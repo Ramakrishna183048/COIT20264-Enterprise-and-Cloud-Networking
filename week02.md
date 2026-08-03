@@ -1,6 +1,14 @@
 # week02
+## Azure Virtual Machine and Cloud Shell
 
-## Task 1 – Build an Azure Virtual Machine (GUI Method)
+## Overview
+
+This week focused on creating and managing an Azure Virtual Machine using the Microsoft Azure Portal and Azure Cloud Shell. The practical activities included deploying a virtual machine, configuring it through the Bash Cloud Shell, installing a web server, and understanding the concept and functions of virtual machines.
+
+## Portfolio Tasks
+
+### Task 1 – Build an Azure Virtual Machine (GUI Method)
+
 
 ### Objective
 To create a Microsoft Azure Virtual Machine using the Azure Portal graphical user interface (GUI).
