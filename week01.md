@@ -6,7 +6,7 @@ This week introduced the fundamentals of cloud computing and Microsoft Azure. Th
 
 ## Portfolio Tasks
 
-### Task 1 – Cisco Packet Tracer Home Network
+## Task 1 – Cisco Packet Tracer Home Network
 
 ### Description
 I installed and registered Cisco Packet Tracer and created a basic home network. The network was designed with a router, a switch, and four PCs connected using Ethernet cables. Each PC was configured with a unique IP address to simulate communication within a local area network (LAN).
@@ -48,7 +48,7 @@ I installed and registered Cisco Packet Tracer and created a basic home network.
 - IP address configuration
 - Local Area Network (LAN) simulation
 
-## Task 1 Screenshot
+### Task 1 Screenshot
 
 ![Cisco Packet Tracer Home Network](images/week1-task1-network-diagram.png)
 
@@ -70,22 +70,22 @@ Create a Microsoft Azure student account using the CQUniversity email and regist
 ### Outcome
 Successfully completed the Microsoft Learn course registration and verified enrollment through the View Agreement page.
 
-# Task 3 – Microsoft Azure Service Models
+## Task 3 – Microsoft Azure Service Models
 
-## Objective
+### Objective
 I Explore Microsoft Azure services available in the Azure Portal and identify three examples of each cloud service model.
 
-## Infrastructure as a Service (IaaS)
+### Infrastructure as a Service (IaaS)
 - Azure Virtual Machines
 - Azure Virtual Network
 - Azure Load Balancer
 
-## Platform as a Service (PaaS)
+### Platform as a Service (PaaS)
 - Azure App Service
 - Azure SQL Database
 - Azure Functions
 
-## Software as a Service (SaaS)
+### Software as a Service (SaaS)
 - Microsoft 365
 - Microsoft Teams
 - Microsoft OneDrive
