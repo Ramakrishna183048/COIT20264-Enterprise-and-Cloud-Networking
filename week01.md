@@ -1,4 +1,4 @@
-# week01
+# week 1
 ## Introduction to Cloud Computing and Microsoft Azure
 
 ## Overview
