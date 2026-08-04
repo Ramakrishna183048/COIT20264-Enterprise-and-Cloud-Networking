@@ -18,14 +18,20 @@ In this task, I successfully created a Virtual Machine using the Microsoft Azure
 
 ### Virtual Machine Details
 
+### Virtual Machine Details
+
+- **Subscription:** Azure for Students
 - **Resource Group:** IntroAzureRG
-- **Virtual Machine Name:** AVD-Stud-85 *(or your VM name)*
-- **Operating System:** Ubuntu Server *(or Windows Server, depending on what you selected)*
-- **Region:** Australia East *(or your selected region)*
-- **Size:** Standard B1s *(or your selected size)*
-- **Authentication Type:** SSH Public Key / Password
-- **Public IP Address:** xxx.xxx.xxx.xxx
-- **Subscription ID:** xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+- **Virtual Machine Name:** my-vm
+- **Operating System:** Ubuntu Server 24.04 LTS
+- **VM Architecture:** x64
+- **Region:** Australia East
+- **Virtual Machine Size:** Standard D2s v3 (2 vCPUs, 8 GiB Memory)
+- **Authentication Type:** Password
+- **Username:** azureuser
+- **Public IP Address:** 20.5.178.229
+- **Private IP Address:** 10.0.0.4
+- **Virtual Network:** my-vm-vnet
 
 ### Skills Demonstrated
 
