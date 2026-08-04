@@ -32,15 +32,16 @@ This repository contains my weekly tutorial and laboratory activities completed 
 
 ## Weekly Contents
 
-- Week 1 – Introduction and Lab Activities(./week01)
-- Week 2 – Azure Virtual Machine Creation and Cloud Shell(./week02)
-- Week 3 – Coming Soon(./week03)
-- Week 4 – Coming Soon(./week04)
-- Week 5 – Coming Soon(./week05)
-- Week 6 – Coming Soon
-- Week 7 – Coming Soon
-- Week 8 – Coming Soon
-- Week 9 – Coming Soon
-- Week 10 – Coming Soon
+- [Week 1 – Introduction and Lab Activities](./week01)
+- [Week 2 – Azure Virtual Machine Creation and Cloud Shell](./week02)
+- [Week 3 – Coming Soon](./week03)
+- [Week 4 – Coming Soon](./week04)
+- [Week 5 – Coming Soon](./week05)
+- [Week 6 – Coming Soon](./week06)
+- [Week 7 – Coming Soon](./week07)
+- [Week 8 – Coming Soon](./week08)
+- [Week 9 – Coming Soon](./week09)
+- [Week 10 – Coming Soon](week10)
+
 
 
