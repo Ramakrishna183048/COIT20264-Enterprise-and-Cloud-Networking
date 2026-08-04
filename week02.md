@@ -1,4 +1,5 @@
 # week02
+
 ## Azure Virtual Machine and Cloud Shell
 
 ## Overview
@@ -68,7 +69,7 @@ I successfully created an Azure Virtual Machine using the Microsoft Azure Portal
 - **Public IP Address:** 20.5.178.229
 - **Agent Status:** Ready
 
-### Screenshot
+### Screenshots
 
 ![Azure Virtual Machine Overview](images/week2-task2-creat-virtual.png)
 ![Azure Virtual Machine Overview](images/week2-task2-myvm.png)
@@ -100,7 +101,7 @@ The command ran successfully, and the provisioning state showed **Succeeded**, w
 
 ![Nginx installation](images/week2-task2-cli-success.png)
 
-### Step 3: Retrieve the Public IP Address
+### Retrieve the Public IP Address
 
 After installing Nginx, I used the following command to find the public IP address of my virtual machine.
 
@@ -121,7 +122,7 @@ az vm show \
 ```
 ---
 
-## Step 4: Verify the Web Server
+### Verify the Web Server
 
 Finally, I copied the public IP address and opened it in my web browser.
 
@@ -139,11 +140,56 @@ This confirmed that the Nginx web server was installed successfully and was runn
 
 ---
 
-## Result
+### Result
 
 In this task, I successfully configured my Azure virtual machine using Azure Cloud Shell. I installed the Nginx web server with Azure CLI, retrieved the VM's public IP address, and verified that the web server was working by opening it in a web browser.
 
 ---
 
-### Outcome
-Successfully deployed and verified an Azure Virtual Machine using the Microsoft Azure Portal.
+## Task 3: Virtual Machine Concept and Functions
+
+### Objective
+
+The objective of this task was to understand the concept of a Virtual Machine (VM), its functions, and how it is used in cloud computing based on the knowledge gained in class and additional online resources.
+
+---
+
+### What is a Virtual Machine?
+
+A Virtual Machine (VM) is a software-based computer that runs inside a physical computer. It has its own operating system, CPU, memory, storage, and network just like a physical computer. A VM allows users to run applications and operating systems without needing separate physical hardware.
+
+---
+
+### Functions of a Virtual Machine
+
+- Runs different operating systems on the same physical computer.
+- Provides isolated environments for applications and services.
+- Hosts websites, databases, and business applications.
+- Supports software testing and development without affecting the host system.
+- Allows easy deployment, backup, and recovery of systems.
+- Enables cloud providers to efficiently manage computing resources.
+
+---
+
+### Advantages of Virtual Machines
+
+- Reduces hardware costs by sharing physical resources.
+- Easy to create, manage, and delete virtual machines.
+- Improves resource utilization.
+- Provides better security through isolation.
+- Scales quickly to meet changing workload requirements.
+- Supports disaster recovery and backup solutions.
+
+---
+
+### Practical Application
+
+During this week's lab, I created an Azure Virtual Machine using the Azure Portal and configured it using Azure Cloud Shell. I installed an Nginx web server on the VM and verified that it was running successfully by accessing the web page through the VM's public IP address. This practical activity helped me understand how virtual machines are created, managed, and used in a cloud environment.
+
+---
+
+## Learning Outcome
+
+-Through this task, I gained a better understanding of Virtual Machines and their role in cloud computing.
+-I also developed practical experience in deploying, configuring, and managing an Azure Virtual Machine using both the Azure Portal and Azure CLI.
+-Successfully deployed and verified an Azure Virtual Machine using the Microsoft Azure Portal.
