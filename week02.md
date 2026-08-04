@@ -73,5 +73,77 @@ I successfully created an Azure Virtual Machine using the Microsoft Azure Portal
 ![Azure Virtual Machine Overview](images/week2-task2-creat-virtual.png)
 ![Azure Virtual Machine Overview](images/week2-task2-myvm.png)
 
+In this task, I used Azure Cloud Shell (Bash) to configure the virtual machine that I created in Task 1. I installed an Nginx web server using Azure CLI commands, checked the VM's public IP address, and confirmed that the web server was working by opening it in a web browser.
+
+---
+
+### Open Azure Cloud Shell
+
+First, I logged into the Azure Portal and opened **Cloud Shell**. I selected the **Bash** environment to run the Azure CLI commands.
+
+### Install Nginx
+
+Next, I ran the following Azure CLI command to install the Nginx web server on my virtual machine.
+
+```bash
+az vm extension set \
+  --resource-group "IntroAzureRG" \
+  --vm-name my-vm \
+  --name customScript \
+  --publisher Microsoft.Azure.Extensions \
+  --version 2.1 \
+  --settings '{"fileUris":["https://raw.githubusercontent.com/MicrosoftDocs/mslearn-welcome-to-azure/master/configure-nginx.sh"]}' \
+  --protected-settings '{"commandToExecute":"./configure-nginx.sh"}'
+```
+
+The command ran successfully, and the provisioning state showed **Succeeded**, which confirmed that Nginx had been installed correctly.
+
+![Azure Virtual Machine Overview](images/week2-task2-cli-success.png)
+
+### Step 3: Retrieve the Public IP Address
+
+After installing Nginx, I used the following command to find the public IP address of my virtual machine.
+
+```bash
+az vm show \
+  --resource-group IntroAzureRG \
+  --name my-vm \
+  --show-details \
+  --query publicIps \
+  --output tsv
+```
+
+**Output**
+![Azure Virtual Machine Overview](images/week2-task2-sucssful.png)
+
+```text
+20.5.178.229
+```
+---
+
+## Step 4: Verify the Web Server
+
+Finally, I copied the public IP address and opened it in my web browser.
+
+```text
+http://20.5.178.229
+```
+
+The browser displayed the following message:
+
+> **Welcome to Azure! My name is my-vm.**
+
+This confirmed that the Nginx web server was installed successfully and was running on my Azure virtual machine.
+
+![Azure Virtual Machine Overview](images/week2-task3-webpage.png)
+
+---
+
+## Result
+
+In this task, I successfully configured my Azure virtual machine using Azure Cloud Shell. I installed the Nginx web server with Azure CLI, retrieved the VM's public IP address, and verified that the web server was working by opening it in a web browser.
+
+---
+
 ### Outcome
 Successfully deployed and verified an Azure Virtual Machine using the Microsoft Azure Portal.
