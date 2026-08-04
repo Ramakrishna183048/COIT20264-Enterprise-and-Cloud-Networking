@@ -1,19 +1,34 @@
-# COIT20264 – Weekly Tutorial Portfolio
+# COIT20264 – Enterprise and Cloud Networking Portfolio
+
+## Student Information
+
+| Details | Information |
+|---------|-------------|
+| **Student Name** | Ramakrishna Rachabanti |
+| **Student ID** | 12314173 |
+| **University** | CQUniversity Australia |
+| **Course** | Master of Information Technology |
+| **Unit Code** | COIT20264 |
+| **Unit Name** | Enterprise and Cloud Networking |
+| **Semester** | Term 2, 2026 |
+| **Repository** | Weekly Tutorial Portfolio |
+
+## Overview
 
 This repository contains my weekly tutorial and laboratory activities completed for COIT20264. It includes Azure cloud practical exercises, virtual machine deployment and configuration, command-line management, screenshots, documentation, and portfolio reflections completed throughout the semester.
 
-## Contents
+## Repository Contents
+
 - Weekly Tutorial Activities
+- Cisco Packet Tracer Network Design
+- Microsoft Azure Cloud Services
 - Azure Virtual Machine Deployment
-- Cloud Shell (Bash) Configuration
-- Azure Services and Networking
-- Screenshots and Evidence
-- Portfolio Reflections
-
-# COIT20264 – Weekly Tutorial Portfolio
-
-## Overview
-This repository contains my weekly tutorial and laboratory activities completed for COIT20264. Each week's folder includes practical exercises, screenshots, configurations, documentation, and reflections completed throughout the semester.
+- Azure Cloud Shell (Bash)
+- Enterprise Networking Concepts
+- Network Configuration and Management
+- Cloud Computing Practical Activities
+- Screenshots and Portfolio Evidence
+- Weekly Reflections and Documentation
 
 ## Weekly Contents
 
@@ -28,19 +43,4 @@ This repository contains my weekly tutorial and laboratory activities completed 
 - Week 9 – Coming Soon
 - Week 10 – Coming Soon
 
-## Repository Structure
 
-```
-COIT20264/
-├── Week01/
-├── Week02/
-├── Week03/
-├── Week04/
-├── Week05/
-├── Week06/
-├── Week07/
-├── Week08/
-├── Week09/
-├── Week10/
-└── README.md
-```
