@@ -98,7 +98,7 @@ az vm extension set \
 
 The command ran successfully, and the provisioning state showed **Succeeded**, which confirmed that Nginx had been installed correctly.
 
-![Azure Virtual Machine Overview](images/week2-task2-cli-success.png)
+![Nginx installation](images/week2-task2-cli-success.png)
 
 ### Step 3: Retrieve the Public IP Address
 
@@ -114,7 +114,7 @@ az vm show \
 ```
 
 **Output**
-![Azure Virtual Machine Overview](images/week2-task2-sucssful.png)
+![Public IP Address](images/week2-task2-sucessful.png)
 
 ```text
 20.5.178.229
@@ -135,7 +135,7 @@ The browser displayed the following message:
 
 This confirmed that the Nginx web server was installed successfully and was running on my Azure virtual machine.
 
-![Azure Virtual Machine Overview](images/week2-task3-webpage.png)
+![Webpage AZURE my-vm](images/week2-task3-webpage.png)
 
 ---
 
