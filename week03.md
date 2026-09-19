@@ -3,7 +3,11 @@
 
 ## Overview
 
-In this week's Packet Tracer activity, I observed how packets travel through LAN and WAN networks. I used Simulation mode to follow DNS and HTTP packets and then removed network links to see how the packet path changed. I also used `tracert` and router interface information to compare the routing path with the HTTP packet flow.
+-- I learned how packets travel in LAN and WAN networks.
+-- I used Simulation mode to check the DNS and HTTP packet flow.
+-- I removed some network links and checked how the packet path changed.
+-- I used tracert to check the path from one device to another.
+-- I compared the tracert results with the HTTP packet flow in Packet Tracer.
 
 ---
 
