@@ -23,7 +23,7 @@ Both websites loaded successfully, confirming that PC0 could communicate with th
 
 ### Evidence
 
-![Connectivity Test](images/week3-connectivity-test.png)
+![Connectivity Test](images/week3-task1-PC0-Web-pka-Connectivity.png)
 
 *Figure 1: Successful access to the web server from the Home Network.*
 
@@ -53,7 +53,7 @@ The response packets travelled back through the network to PC0.
 
 ### Evidence
 
-![DNS and HTTP Packet Flow](images/week3-dns-http-packet-flow.png)
+![DNS and HTTP Packet Flow](images/week3-task1-dns-packet-flow.png)
 
 *Figure 2: DNS and HTTP packet flow observed in Simulation mode.*
 
@@ -73,7 +73,7 @@ This showed that the LAN had another available path when one link became unavail
 
 ### Evidence
 
-![LAN Alternative Path](images/week3-broken-lan-alternative-path.png)
+![LAN Alternative Path](images/week3-task1-http-packet-flow.png)
 
 *Figure 3: Alternative packet path after removing the link between Switch0 and Switch1.*
 
