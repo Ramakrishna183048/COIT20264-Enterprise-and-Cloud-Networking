@@ -1,4 +1,3 @@
-
 # Week 3 – Identify Packet Flow
 
 ## Overview
@@ -6,8 +5,8 @@
 - I learned how packets travel in LAN and WAN networks.
 - I used Simulation mode to check the DNS and HTTP packet flow.
 - I removed some network links and checked how the packet path changed.
-- I used tracert to check the path from one device to another.
-- I compared the tracert results with the HTTP packet flow in Packet Tracer.
+- I used `tracert` to check the path from one device to another.
+- I compared the `tracert` results with the HTTP packet flow in Packet Tracer.
 
 ---
 
@@ -22,13 +21,19 @@ I accessed:
 
 Both websites loaded successfully, confirming that PC0 could communicate with the remote networks.
 
+### Evidence
+
+![Connectivity Test](images/week3-connectivity-test.png)
+
+*Figure 1: Successful access to the web server from the Home Network.*
+
 ---
 
 ## Task 2 – Remote LAN Network Topology
 
 ### DNS Packet Path Prediction
 
-Before forwarding the packets in Simulation mode, I predicted that PC0 would send the DNS request through the home network and then across the network to the Public DNS server.
+Before forwarding the packets in Simulation mode, I predicted that PC0 would send the DNS request through the Home Network and then across the network to the Public DNS server.
 
 After observing the simulation, the DNS request travelled through:
 
@@ -46,6 +51,12 @@ The HTTP packets travelled through:
 
 The response packets travelled back through the network to PC0.
 
+### Evidence
+
+![DNS and HTTP Packet Flow](images/week3-dns-http-packet-flow.png)
+
+*Figure 2: DNS and HTTP packet flow observed in Simulation mode.*
+
 ### Broken LAN Link
 
 I switched to Realtime mode and removed the link between **Switch0 and Switch1** in the Public Network. After allowing the network to adjust, I accessed `www.web.pka` from Tablet0 in Simulation mode.
@@ -58,7 +69,13 @@ The observed path used:
 
 instead of using the broken Switch0–Switch1 link.
 
-This showed that the redundant LAN topology provided an alternative path when one link became unavailable.
+This showed that the LAN had another available path when one link became unavailable.
+
+### Evidence
+
+![LAN Alternative Path](images/week3-broken-lan-alternative-path.png)
+
+*Figure 3: Alternative packet path after removing the link between Switch0 and Switch1.*
 
 ---
 
@@ -70,9 +87,9 @@ I used Simulation mode to observe communication between PC0 and `www.cisco.pka`.
 
 ### DNS Packet Path Prediction
 
-I predicted that the DNS request would travel from PC0 through the home network and WAN to the Public DNS server so that the IP address of `www.cisco.pka` could be resolved.
+I predicted that the DNS request would travel from PC0 through the Home Network and WAN to the Public DNS server so that the IP address of `www.cisco.pka` could be resolved.
 
-The packet travelled from the home network through the WAN towards the Public DNS server and the DNS response returned to PC0.
+The DNS request travelled through the network to the Public DNS server, and the DNS response returned to PC0.
 
 ### HTTP Packet Path
 
@@ -82,7 +99,13 @@ Before the WAN link was removed, the main WAN path observed was:
 
 **PC0 → Wireless Router0 → Cable Modem0 → Cloud0 → Router5 → Router2 → Router4 → West → Switch → www.cisco.pka**
 
-The response travelled back towards PC0.
+The response packets travelled back towards PC0.
+
+### Evidence
+
+![WAN Packet Flow](images/week3-wan-http-path.png)
+
+*Figure 4: HTTP packet flow from PC0 to www.cisco.pka across the WAN.*
 
 ### Broken WAN Link
 
@@ -99,6 +122,12 @@ The alternative WAN path observed was:
 The packets used **Router3** as an alternative route between Router2 and Router4.
 
 This showed how dynamic routing can redirect traffic when a WAN link becomes unavailable.
+
+### Evidence
+
+![WAN Alternative Path](images/week3-broken-wan-alternative-path.png)
+
+*Figure 5: Alternative WAN packet path after removing the Router4–Router2 link.*
 
 ---
 
@@ -122,7 +151,13 @@ The traceroute showed the Layer 3 hops between PC1 and the destination.
 | 6 | East | Serial0/0/0 | `209.165.202.130` |
 | 7 | www.web.pka | NIC | `209.165.202.132 / 192.168.2.254` |
 
-### Network Address Translation
+### Evidence
+
+![PC1 Traceroute](images/week3-task1-pc1-tracert-web.png)
+
+*Figure 6: Traceroute from PC1 to www.web.pka showing the Layer 3 hops.*
+
+### Network Address Translation (NAT)
 
 The activity uses NAT for the `www.web.pka` server.
 
@@ -150,47 +185,7 @@ The `tracert` results and HTTP simulation showed the same main Layer 3 route thr
 
 The difference was that Packet Tracer Simulation mode also showed the switches and other devices used to forward the HTTP packets, while `tracert` mainly showed the Layer 3 hops between PC1 and the destination.
 
----
-
-## Evidence
-
-### Figure 1 – Connectivity Test
-
-![Connectivity Test](images/week3-connectivity-test.png)
-
-*Figure 1: Successful access to the web server from the home network.*
-
-### Figure 2 – DNS and HTTP Packet Flow
-
-![DNS and HTTP Packet Flow](images/week3-dns-http-packet-flow.png)
-
-*Figure 2: DNS and HTTP packets observed using Packet Tracer Simulation mode.*
-
-### Figure 3 – LAN Alternative Path
-
-![LAN Alternative Path](images/week3-broken-lan-alternative-path.png)
-
-*Figure 3: Packet flow after removing the link between Switch0 and Switch1.*
-
-### Figure 4 – WAN Packet Flow
-
-![WAN Packet Flow](images/week3-wan-http-path.png)
-
-*Figure 4: HTTP packet flow across the WAN.*
-
-### Figure 5 – WAN Alternative Path
-
-![WAN Alternative Path](images/week3-broken-wan-alternative-path.png)
-
-*Figure 5: Alternative WAN packet path after removing the Router4–Router2 link.*
-
-### Figure 6 – PC1 Traceroute
-
-![PC1 Traceroute](images/week3-task1-pc1-tracert-web.png)
-
-*Figure 6: Traceroute from PC1 to www.web.pka showing the Layer 3 hops.*
-
-### Figure 7 – PC1 HTTP Simulation
+### Evidence
 
 ![PC1 HTTP Packet Path](images/week3-task1-pc1-http-packet-path.png)
 
@@ -207,5 +202,5 @@ The difference was that Packet Tracer Simulation mode also showed the switches a
 - By removing the link between Switch0 and Switch1, I learned that the LAN could still use another available path to reach the web server.
 - I also removed the link between Router4 and Router2 and observed how EIGRP selected an alternative route through Router3, allowing the communication to continue.
 - This helped me understand why having alternative paths and dynamic routing is useful when a network link becomes unavailable.
-- Using tracert helped me identify the Layer 3 hops between PC1 and the web server and understand which routers were involved in the path.
-- Finally, comparing the tracert results with Simulation mode helped me understand that tracert mainly shows the Layer 3 hops, while Packet Tracer Simulation provides more detail about how packets move through the network.
+- Using `tracert` helped me identify the Layer 3 hops between PC1 and the web server and understand which routers were involved in the path.
+- Finally, comparing the `tracert` results with Simulation mode helped me understand that `tracert` mainly shows the Layer 3 hops, while Packet Tracer Simulation provides more detail about how packets move through the network.
