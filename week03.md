@@ -103,7 +103,7 @@ The response packets travelled back towards PC0.
 
 ### Evidence
 
-![WAN Packet Flow](images/week3-wan-http-path.png)
+![WAN Packet Flow](images/week3-task1-broken-lan-alternate-path.png)
 
 *Figure 4: HTTP packet flow from PC0 to www.cisco.pka across the WAN.*
 
@@ -125,7 +125,7 @@ This showed how dynamic routing can redirect traffic when a WAN link becomes una
 
 ### Evidence
 
-![WAN Alternative Path](images/week3-broken-wan-alternative-path.png)
+![WAN Alternative Path](images/week3-task1-cisco-dns-path.png
 
 *Figure 5: Alternative WAN packet path after removing the Router4–Router2 link.*
 
