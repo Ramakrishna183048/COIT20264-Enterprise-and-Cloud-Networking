@@ -3,11 +3,11 @@
 
 ## Overview
 
--- I learned how packets travel in LAN and WAN networks.
--- I used Simulation mode to check the DNS and HTTP packet flow.
--- I removed some network links and checked how the packet path changed.
--- I used tracert to check the path from one device to another.
--- I compared the tracert results with the HTTP packet flow in Packet Tracer.
+- I learned how packets travel in LAN and WAN networks.
+- I used Simulation mode to check the DNS and HTTP packet flow.
+- I removed some network links and checked how the packet path changed.
+- I used tracert to check the path from one device to another.
+- I compared the tracert results with the HTTP packet flow in Packet Tracer.
 
 ---
 
@@ -200,6 +200,12 @@ The difference was that Packet Tracer Simulation mode also showed the switches a
 
 ## Reflection
 
-This activity helped me understand the difference between packet flow in a LAN and across a WAN. Simulation mode made it easier to see how DNS is used before HTTP communication and how packets move through routers and switches.
-
-I also observed that removing a link did not necessarily stop communication. The LAN could use another available connection, while EIGRP provided an alternative WAN route after the Router4–Router2 link was removed. Using `tracert` also helped me identify the Layer 3 devices involved in reaching a remote server.
+- This activity helped me understand more clearly how packet flow works in LAN and WAN networks and how data travels from a source device to a destination.
+- By using Simulation mode, I was able to follow the packets step by step instead of only seeing the final result.
+- I observed that DNS communication happens before HTTP communication because the website name first needs to be resolved to an IP address.
+- I was able to see how packets travel through different network devices such as switches and routers before reaching the destination server.
+- By removing the link between Switch0 and Switch1, I learned that the LAN could still use another available path to reach the web server.
+- I also removed the link between Router4 and Router2 and observed how EIGRP selected an alternative route through Router3, allowing the communication to continue.
+- This helped me understand why having alternative paths and dynamic routing is useful when a network link becomes unavailable.
+- Using tracert helped me identify the Layer 3 hops between PC1 and the web server and understand which routers were involved in the path.
+- Finally, comparing the tracert results with Simulation mode helped me understand that tracert mainly shows the Layer 3 hops, while Packet Tracer Simulation provides more detail about how packets move through the network.
