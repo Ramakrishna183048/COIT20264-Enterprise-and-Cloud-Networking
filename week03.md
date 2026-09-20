@@ -59,7 +59,7 @@ The response packets travelled back through the network to PC0.
 
 ### Evidence
 
-![HTTP Packet Flow](images/week3-task1-dns-packet-flow.png)
+![HTTP Packet Flow](images/week3-task1-http-packet-flow.png)
 
 *Figure 2: HTTP packet flow observed in Simulation mode.*
 
