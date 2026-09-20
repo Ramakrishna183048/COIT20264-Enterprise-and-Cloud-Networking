@@ -145,7 +145,7 @@ From PC1, I opened Command Prompt and ran:
 
 `tracert www.web.pka`
 
-The traceroute showed the Layer 3 hops between PC1 and the destination.
+The traceroute showed the Layer 3 hops between PC1 and the destination. I matched the traceroute addresses with the devices and interfaces in the Packet Tracer topology.
 
 | Trace Number | Device | Interface | IP Address |
 |---:|---|---|---|
@@ -154,14 +154,16 @@ The traceroute showed the Layer 3 hops between PC1 and the destination.
 | 3 | Router3 | Serial0/0/0 | `192.0.2.2` |
 | 4 | Router2 | Serial0/0/1 | `192.0.2.18` |
 | 5 | Router5 | Serial0/1/1 | `192.0.2.26` |
-| 6 | East | Serial0/0/0 | `209.165.202.130` |
-| 7 | www.web.pka | NIC | `209.165.202.132 / 192.168.2.254` |
+| 6 | East / NAT | — | `209.165.202.132` |
+| 7 | www.web.pka | NIC | `209.165.202.132` |
+
+The repeated `209.165.202.132` addresses are related to the NAT configuration used to provide access to the web server, whose private address is `192.168.2.254`.
 
 ### Evidence
 
 ![PC1 Traceroute](images/week3-task1-pc1-tracert-web.png)
 
-*Figure 6: Traceroute from PC1 to www.web.pka showing the Layer 3 hops.*
+*Figure 8: Traceroute from PC1 to www.web.pka showing the Layer 3 hops.*
 
 ### Network Address Translation (NAT)
 
