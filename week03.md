@@ -79,7 +79,7 @@ This showed that the LAN had another available path when one link became unavail
 
 ### Evidence
 
-![LAN Alternative Path](images/week3-task1-http-packet-flow.png)
+![LAN Alternative Path](images/week3-task1-broken-lan-alternate-path.png)
 
 *Figure 3: Alternative packet path after removing the link between Switch0 and Switch1.*
 
