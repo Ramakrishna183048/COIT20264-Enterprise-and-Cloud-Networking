@@ -97,6 +97,12 @@ I predicted that the DNS request would travel from PC0 through the Home Network 
 
 The DNS request travelled through the network to the Public DNS server, and the DNS response returned to PC0.
 
+### Evidence
+
+![Cisco DNS Packet Path](images/week3-task1-cisco-dns-path.png)
+
+*Figure 5: DNS packet flow while resolving www.cisco.pka.*
+
 ### HTTP Packet Path
 
 After DNS resolution, I observed the HTTP packets travelling towards `www.cisco.pka`.
@@ -111,7 +117,7 @@ The response packets travelled back towards PC0.
 
 ![WAN Packet Flow](images/week3-task1-cisco-http-wan-path.png)
 
-*Figure 5: HTTP packet flow from PC0 to www.cisco.pka across the WAN.*
+*Figure 6: HTTP packet flow from PC0 to www.cisco.pka across the WAN.*
 
 ### Broken WAN Link
 
@@ -133,7 +139,7 @@ This showed how dynamic routing can redirect traffic when a WAN link becomes una
 
 ![WAN Alternative Path](images/week3-task1-broken-wan-path.png)
 
-*Figure 6: Alternative WAN packet path after removing the Router4–Router2 link.*
+*Figure 7: Alternative WAN packet path after removing the Router4–Router2 link.*
 
 ---
 
