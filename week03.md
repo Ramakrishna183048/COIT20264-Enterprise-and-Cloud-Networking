@@ -41,6 +41,12 @@ After observing the simulation, the DNS request travelled through:
 
 The DNS response then travelled back towards PC0.
 
+### Evidence
+
+![DNS Packet Flow](images/week3-task1-dns-packet-flow.png)
+
+*Figure 2: DNS packet flow observed in Simulation mode.*
+
 ### HTTP Packet Path
 
 After the IP address of `www.web.pka` was resolved, I observed the HTTP packets in Simulation mode.
@@ -53,9 +59,9 @@ The response packets travelled back through the network to PC0.
 
 ### Evidence
 
-![DNS and HTTP Packet Flow](images/week3-task1-dns-packet-flow.png)
+![HTTP Packet Flow](images/week3-task1-dns-packet-flow.png)
 
-*Figure 2: DNS and HTTP packet flow observed in Simulation mode.*
+*Figure 2: HTTP packet flow observed in Simulation mode.*
 
 ### Broken LAN Link
 
@@ -103,7 +109,7 @@ The response packets travelled back towards PC0.
 
 ### Evidence
 
-![WAN Packet Flow](images/week3-task1-broken-lan-alternate-path.png)
+![WAN Packet Flow](images/)
 
 *Figure 4: HTTP packet flow from PC0 to www.cisco.pka across the WAN.*
 
@@ -125,7 +131,7 @@ This showed how dynamic routing can redirect traffic when a WAN link becomes una
 
 ### Evidence
 
-![WAN Alternative Path](images/week3-task1-cisco-dns-path.png)
+![WAN Alternative Path](images/week3-task1-broken-lan-alternate-path.png)
 
 *Figure 5: Alternative WAN packet path after removing the Router4–Router2 link.*
 
