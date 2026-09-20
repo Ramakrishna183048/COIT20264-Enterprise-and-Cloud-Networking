@@ -218,3 +218,15 @@ The difference was that Packet Tracer Simulation mode also showed the switches a
 - This helped me understand why having alternative paths and dynamic routing is useful when a network link becomes unavailable.
 - Using `tracert` helped me identify the Layer 3 hops between PC1 and the web server and understand which routers were involved in the path.
 - Finally, comparing the `tracert` results with Simulation mode helped me understand that `tracert` mainly shows the Layer 3 hops, while Packet Tracer Simulation provides more detail about how packets move through the network.
+
+## Problems Faced and How I Overcame Them
+
+- At first, I found it a little difficult to follow the DNS and HTTP packets because there were many packets showing in Simulation mode. I selected only DNS and HTTP in the filters and used Capture/Forward to check the packets one by one.
+
+- While checking the packet flow, the simulation buffer became full. I used the previous events option and continued the simulation more slowly so I could follow the packets properly.
+
+- After removing the connection between Switch0 and Switch1, I was not sure which path the packets would take. I tested the website again from Tablet0 and saw that the packets were able to reach the web server using Switch2.
+
+- I had a similar problem after removing the connection between Router4 and Router2. I followed the packets again in Simulation mode and found that the traffic was going through Router3 instead. This helped me understand how EIGRP can find another route when a connection is down.
+
+- When I used `tracert`, it showed IP addresses instead of the router names. I checked the IP addresses on the routers and matched them with the traceroute results to understand which devices the packets were passing through.
