@@ -61,7 +61,7 @@ The response packets travelled back through the network to PC0.
 
 ![HTTP Packet Flow](images/week3-task1-http-packet-flow.png)
 
-*Figure 2: HTTP packet flow observed in Simulation mode.*
+*Figure 3: HTTP packet flow observed in Simulation mode.*
 
 ### Broken LAN Link
 
@@ -81,7 +81,7 @@ This showed that the LAN had another available path when one link became unavail
 
 ![LAN Alternative Path](images/week3-task1-broken-lan-alternate-path.png)
 
-*Figure 3: Alternative packet path after removing the link between Switch0 and Switch1.*
+*Figure 4: Alternative packet path after removing the link between Switch0 and Switch1.*
 
 ---
 
@@ -111,7 +111,7 @@ The response packets travelled back towards PC0.
 
 ![WAN Packet Flow](images/week3-task1-cisco-http-wan-path.png)
 
-*Figure 4: HTTP packet flow from PC0 to www.cisco.pka across the WAN.*
+*Figure 5: HTTP packet flow from PC0 to www.cisco.pka across the WAN.*
 
 ### Broken WAN Link
 
@@ -133,7 +133,7 @@ This showed how dynamic routing can redirect traffic when a WAN link becomes una
 
 ![WAN Alternative Path](images/week3-task1-broken-wan-path.png)
 
-*Figure 5: Alternative WAN packet path after removing the Router4–Router2 link.*
+*Figure 6: Alternative WAN packet path after removing the Router4–Router2 link.*
 
 ---
 
@@ -197,7 +197,7 @@ The difference was that Packet Tracer Simulation mode also showed the switches a
 
 ![PC1 HTTP Packet Path](images/week3-task1-pc1-http-packet-path.png)
 
-*Figure 7: HTTP packet path from PC1 to www.web.pka in Simulation mode.*
+*Figure 9: HTTP packet path from PC1 to www.web.pka in Simulation mode.*
 
 ---
 
