@@ -109,7 +109,7 @@ The response packets travelled back towards PC0.
 
 ### Evidence
 
-![WAN Packet Flow](images/)
+![WAN Packet Flow](images/week3-task1-cisco-http-wan-path.png)
 
 *Figure 4: HTTP packet flow from PC0 to www.cisco.pka across the WAN.*
 
