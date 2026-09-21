@@ -114,7 +114,7 @@ This means an alert can be sent when Azure forecasts that the configured budget 
 
 ### Evidence
 
-![Monthly Budget](images/MY-RG-monthly-budget.png)
+![Monthly Budget](images/week4-MY-RG-monthly-budget.png)
 
 *Figure 5: My_RG_monthly_budget showing the monthly budget and 80% forecasted cost alert.*
 
