@@ -139,7 +139,7 @@ The storage account was successfully deployed and ready to use.
 
 ### Evidence
 
-![Azure Storage Account](images/week4-task2-storage-account.png)
+![Azure Storage Account](images/week4-task2-storage-account-created.png)
 
 *Figure 6: Successfully created Azure Storage Account.*
 
