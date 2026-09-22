@@ -119,6 +119,93 @@ This means an alert can be sent when Azure forecasts that the configured budget 
 *Figure 5: My_RG_monthly_budget showing the monthly budget and 80% forecasted cost alert.*
 
 ---
+## Portfolio Task 2 – Azure Blob Storage
+
+### Creating the Storage Account
+
+For this task, I created an Azure Storage Account using my Azure for Students subscription.
+
+The storage account was created with the following settings:
+
+- **Resource Group:** `IntroAzureRG`
+- **Storage Account:** `cloudshell37176613`
+- **Region:** Australia East
+- **Primary Service:** Azure Blob Storage or Azure Data Lake Storage
+- **Performance:** Standard
+- **Redundancy:** Locally-redundant storage (LRS)
+- **Account Type:** StorageV2
+
+The storage account was successfully deployed and ready to use.
+
+### Evidence
+
+![Azure Storage Account](images/week4-task2-storage-account.png)
+
+*Figure 6: Successfully created Azure Storage Account.*
+
+---
+
+### Creating a Storage Container and Uploading a File
+
+Inside the storage account, I created a container named:
+
+`mystoragecontainer`
+
+I then uploaded the following test file into the container:
+
+`mycontainertest.txt`
+
+The file was successfully uploaded and displayed inside the container as a **Block blob**.
+
+### Evidence
+
+![Storage Container and Uploaded File](images/week4-task2-container-upload.png)
+
+*Figure 7: Storage container showing the successfully uploaded mycontainertest.txt file.*
+
+---
+
+### Cloud Storage Blob Concept and Functions
+
+A cloud storage blob is used to store unstructured data in the cloud. This can include text files, documents, images, videos, backups and other types of files.
+
+Azure Blob Storage uses the following structure:
+
+`Storage Account → Container → Blob`
+
+In this activity, the structure was:
+
+`cloudshell37176613 → mystoragecontainer → mycontainertest.txt`
+
+The storage account provides the main storage resource, the container is used to organise the stored data, and the uploaded file is stored as a blob.
+
+Azure Blob Storage can be used to:
+
+- Store files and unstructured data in the cloud.
+- Organise data using containers.
+- Upload and download files.
+- Store documents, images, videos and backups.
+- Control access to stored data.
+- Provide scalable cloud storage.
+- Use redundancy options to improve data availability.
+
+---
+
+### Clean-Up
+
+After completing the activity and saving the required screenshots, I deleted the `IntroAzureRG` resource group.
+
+This removed the resources created for the activity and helped prevent unnecessary use of my Azure student credits.
+
+After refreshing the page, Azure displayed **Resource not found**, confirming that the resource group had been deleted.
+
+### Evidence
+
+![Resource Group Cleanup](images/week4-task2-resource-group-cleanup.png)
+
+*Figure 8: Azure showing Resource not found after deleting the IntroAzureRG resource group.*
+
+---
 
 ## What I Learned
 
@@ -146,10 +233,18 @@ This helped me understand that Azure validates the complete alert configuration 
 
 ## Reflection
 
-This week's activity gave me a better understanding of how costs can be monitored and controlled in Azure.
+- This week's activities helped me understand both Azure Cost Management and Azure Blob Storage.
 
-Before doing this activity, I mainly focused on creating and configuring Azure resources. This lab showed me that managing the cost of those resources is also an important part of cloud management.
+- I learned that cloud management is not only about creating and configuring resources, but also about monitoring and controlling their costs.
 
-I found the Daily costs view useful because it provides a simple way to monitor how costs change over time. The budget and forecast alert also showed me how an administrator can keep track of spending and receive an early warning when costs are expected to reach a certain level.  
+- Creating the Daily costs view helped me understand how Azure costs can be monitored over time.
 
-Overall, this activity helped me understand the basic Azure tools available for cost monitoring, budgeting and cost alerts.
+- Creating a budget and forecast alert showed me how administrators can track spending and receive an early warning when costs are expected to reach a certain level.
+
+- In the Blob Storage activity, I learned how to create a storage account, create a container and upload a file as a blob.
+
+- I also understood the relationship between a storage account, container and blob, and how they are used to organise and store data in Azure.
+
+- Finally, I learned the importance of cleaning up Azure resources after completing the activities so that unused resources do not continue consuming student credits.
+
+- Overall, Week 4 gave me a better understanding of Azure cost management, budgeting, cost alerts and cloud storage.
