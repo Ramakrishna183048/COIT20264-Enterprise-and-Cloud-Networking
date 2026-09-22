@@ -159,7 +159,7 @@ The file was successfully uploaded and displayed inside the container as a **Blo
 
 ### Evidence
 
-![Storage Container and Uploaded File](images/week4-task2-container-upload.png)
+![Storage Container and Uploaded File](images/week4-task2-container-blob-upload.png)
 
 *Figure 7: Storage container showing the successfully uploaded mycontainertest.txt file.*
 
