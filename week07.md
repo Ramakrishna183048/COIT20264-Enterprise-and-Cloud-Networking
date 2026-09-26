@@ -74,6 +74,7 @@ The final result showed **100% completion** for:
 
 ### Evidence
 
+![Challenge Lab Completion](images/week7-az900-003-completed.png)
 ![Challenge Lab Completion](images/week7-az900-003-100-percent.png)
 
 *Figure 3: AZ900-003 Azure Cloud Shell Challenge Lab completed with 100%.*
