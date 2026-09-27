@@ -12,21 +12,13 @@ The main devices in the topology included routers, a switch, a cloud, a cable mo
 
 ### Step 1 – Test the Connection from Family PC to netacad.pka
 
-I opened the Command Prompt on the Family PC and tested connectivity to `netacad.pka` using:
-
-`ping netacad.pka`
-
-The hostname resolved to `10.0.0.254`. All four ping packets were successfully received with 0% packet loss. This confirmed that the Family PC could communicate with the netacad.pka server.
+I opened the Command Prompt on the Family PC and used `ping netacad.pka` to test the connection. The hostname resolved to `10.0.0.254`, and all four packets were received successfully with 0% packet loss.
 
 ![Family PC ping to netacad.pka](images/week10-part4-family-pc-ping-netacad.png)
 
 **Figure 1: Successful ping from Family PC to netacad.pka.**
 
-I then opened the Web Browser on the Family PC and entered:
-
-`http://netacad.pka`
-
-The Netacad.pka webpage loaded successfully, confirming HTTP connectivity between the Family PC and the server.
+I then opened the Web Browser on the Family PC and entered `http://netacad.pka`. The webpage loaded successfully, confirming that the web server was reachable from the Family PC.
 
 ![Netacad webpage](images/week10-part4-netacad-webpage.png)
 
@@ -36,37 +28,25 @@ The Netacad.pka webpage loaded successfully, confirming HTTP connectivity betwee
 
 ### Step 2 – Ping the Switch from Home PC
 
-I opened the Command Prompt on the Home PC and pinged the switch using its IP address:
+I opened the Command Prompt on the Home PC and pinged the switch using its IP address `172.16.0.2`. All four packets were received successfully with 0% packet loss.
 
-`ping 172.16.0.2`
+![Home PC ping to Switch](images/week10-part4-homepc-ping-switch.png)
 
-The test returned four successful replies with 0% packet loss. This confirmed connectivity between the Home PC and the switch.
-
-![Home PC ping to switch](images/week10-part4-homepc-ping-switch.png)
-
-**Figure 3: Successful ping from Home PC to the switch.**
+**Figure 3: Successful ping from Home PC to the switch at 172.16.0.2.**
 
 ---
 
 ### Step 3 – Access Router0 from the Configuration Terminal
 
-I opened the Terminal application on the Configuration Terminal and used the default terminal settings to access Router0 through the console connection.
-
-I then entered:
+I opened the Configuration Terminal and accessed Router0 using the console connection. I then used the following command:
 
 `show ip interface brief`
 
-The output showed the status and IP addressing of the Router0 interfaces. The main configured interfaces were:
-
-- FastEthernet0/0 – `192.168.2.1` – up/up
-- FastEthernet0/1 – `10.0.0.1` – up/up
-- Serial0/0/0 – `172.31.0.1` – up/up
-
-This confirmed that the main Router0 interfaces used by the topology were operational.
+The output showed that FastEthernet0/0, FastEthernet0/1 and Serial0/0/0 were all in the `up/up` state. This confirmed that the main Router0 interfaces were active.
 
 ![Router0 interface status](images/week10-part4-router0-interface-status.png)
 
-**Figure 4: Router0 interface status using the `show ip interface brief` command.**
+**Figure 4: Router0 interface status using the show ip interface brief command.**
 
 ---
 
