@@ -109,7 +109,7 @@ I then attempted to create a storage account while signed in as the Dev1 user. T
 
 This was the expected result because the Dev1 user had permission to manage network resources but did not have permission to create storage accounts. This demonstrated how RBAC can restrict users to only the resources and actions required for their role.
 
-![Storage Account Authorization Error](images/week4-AZ900-008-storage-error.png)
+![Storage Account Authorization Error](images/week7-task2-storage-account-permission-denied.png)
 
 *Figure: Storage account creation failed because the Dev1 user did not have the required permission.*
 
@@ -147,7 +147,7 @@ The command returned a **Forbidden / AuthorizationFailed** error. This was expec
 
 The guided lab verification confirmed that all required activities were successfully completed with a score of **100%**.
 
-![AZ900-008 Completed](images/week4-AZ900-008-completed-100.png)
+![AZ900-008 Completed](images/week7-AZ900-008-completed-100.png)
 
 *Figure: Successful completion of the AZ900-008 Configure Azure Role-Based Access Control guided lab.*
 
