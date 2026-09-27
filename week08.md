@@ -28,10 +28,52 @@ I opened the storage account and explored the available management options in th
 
 *Figure 3: Management options available for the Azure storage account.*
 
+---
+
+## Task 2 – Manage Microsoft Entra Users and Groups
+
+In this task, I completed the **AZ900-013: Manage Microsoft Entra Users and Groups** guided lab. The activity helped me understand how Microsoft Entra ID can be used to manage a tenant, users, groups, and user access.
+
+### Modify the Microsoft Entra Tenant
+
+First, I opened the Microsoft Entra ID tenant and modified the **Technical contact** in the tenant properties. After saving the change, I used the lab verification to confirm that the technical contact was updated successfully.
+
+### Create a Microsoft Entra User
+
+I created a new Microsoft Entra user named **Riley Burgess**. I configured the user account with the required user principal name and user information provided in the lab.
+
+The lab verification confirmed that the Riley Burgess user account was created successfully.
+
+### Create a Microsoft Entra Group
+
+Next, I created a security group named **MyGroup** with the membership type set to **Assigned**.
+
+I added **Riley Burgess** as a member of MyGroup. The lab verification confirmed both the creation of the group and the addition of Riley Burgess as a member.
+
+### Initial Sign-In and Password Change
+
+I then signed in using the **Riley Burgess** Microsoft Entra account in an InPrivate browser window. During the initial sign-in process, the user's initial password was changed to a new password as required by the lab.
+
+After the password change, the account successfully proceeded to the Microsoft authentication setup stage.
+
+### Lab Completion
+
+The final lab result showed **100% completion**. All four activities were successfully completed:
+
+- Modify a Microsoft Entra tenant
+- Create a Microsoft Entra user
+- Create a Microsoft Entra group
+- Change a user's password during initial sign-in
+
+![AZ900-013 Lab Completed](images/week8-task2-az900-013-completed-100.png)
+
+*Figure: AZ900-013 Manage Microsoft Entra Users and Groups guided lab completed with 100%.*
+
 ### What I Learned
 
-- I learned how Azure resource groups are used to organise related cloud resources.
-- I viewed different resource types contained within an existing resource group.
-- I learned how a new Azure resource can be created inside a resource group.
-- I explored the management, security and networking options available for a storage account.
-- This activity helped me understand how resource groups make Azure resources easier to organise and manage.
+- I learned how Microsoft Entra ID is used to manage users and identities in a cloud environment.
+- I learned how to create a new Microsoft Entra user account.
+- I created a security group and added a user as a member of the group.
+- I learned how tenant information, such as the technical contact, can be updated.
+- I learned how a user's password is changed during the initial sign-in process.
+- This activity helped me understand how Microsoft Entra ID can be used to manage users, groups and access in Azure.
