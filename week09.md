@@ -32,7 +32,7 @@ I configured an Azure Load Balancer for the two virtual machines. The configurat
 
 The backend pool contained both virtual machines. The health probe used TCP port 80 to check whether the backend instances were available. The load-balancing rule was also configured for TCP port 80 so incoming traffic could be distributed between the available virtual machines.
 
-![High Availability Lab Completed](images/week4-high-availability-load-balancer-100-percent.png)
+![High Availability Lab Completed](images/week9-high-availability-load-balancer-100-percent.png)
 
 *Figure 4: Successful completion of the high-availability lab, including the Availability Set, virtual machines and Azure Load Balancer.*
 
