@@ -48,7 +48,7 @@ I accessed the Microsoft Entra ID tenant and updated the tenant technical contac
 
 I created a new Microsoft Entra user named **Riley Burgess**. The user was created with the username `RileyB` and was added to the tenant as a member.
 
-![Riley Burgess User](images/week8-task2-riley-user-created.png)
+![Riley Burgess User](images/week8-task1-rilay-created.png)
 
 *Figure 5: Microsoft Entra user Riley Burgess successfully created.*
 
