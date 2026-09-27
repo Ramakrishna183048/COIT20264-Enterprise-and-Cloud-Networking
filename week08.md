@@ -32,59 +32,46 @@ I opened the storage account and explored the available management options in th
 
 ## Portfolio Task 2 – Manage Microsoft Entra Users and Groups
 
-### Overview
+### 1. Create a Microsoft Entra User
 
-In this activity, I worked with Microsoft Entra ID to understand how users and groups can be managed in Azure. I modified the Microsoft Entra tenant information, created a new user, created a security group, added the user to the group, and completed the initial sign-in process for the new user.
+I created a new Microsoft Entra user named **Riley Burgess**. The user was created as a member of the Microsoft Entra tenant.
 
-### 1. Microsoft Entra Tenant
+![Riley Burgess User Created](images/week8-task2-riley-user-created.png)
 
-I accessed the Microsoft Entra ID tenant and updated the tenant technical contact information. This helped me understand where basic tenant information and settings can be managed.
+*Figure 4: Microsoft Entra user Riley Burgess successfully created.*
 
-![Microsoft Entra Tenant](images/week8-task2-entra-technical-contact.png)
+### 2. Create a Microsoft Entra Group
 
-*Figure 4: Microsoft Entra tenant information successfully updated.*
+I created a Microsoft Entra group named **MyGroup** and added **Riley Burgess** as a member. The lab verification confirmed that the group was created and Riley Burgess was successfully added to it.
 
-### 2. Create a Microsoft Entra User
+![MyGroup with Riley Burgess](images/week8-task2-mygroup-riley-completed.png)
 
-I created a new Microsoft Entra user named **Riley Burgess**. The user was created with the username `RileyB` and was added to the tenant as a member.
+*Figure 5: MyGroup successfully created with Riley Burgess added as a member.*
 
-![Riley Burgess User](images/week8-task1-rilay-created.png)
+### 3. Initial Sign-In and Password Change
 
-*Figure 5: Microsoft Entra user Riley Burgess successfully created.*
+I signed in to Azure using the Riley Burgess account and completed the initial password change process. The lab verification confirmed that the sign-in and password change were completed successfully.
 
-### 3. Create a Microsoft Entra Group
+![Riley Password Change](images/week8-task2-riley-password-change-verified.png)
 
-I created a security group named **MyGroup** and added **Riley Burgess** as a member. This showed how groups can be used to organise users and manage access for multiple users.
+*Figure 6: Initial sign-in and password change successfully completed for Riley Burgess.*
 
-![MyGroup](images/week8-task2-mygroup-riley-completed.png)
+### 4. Lab Completion
 
-*Figure 6: MyGroup successfully created with Riley Burgess added as a member.*
-
-### 4. Initial User Sign-In and Password Change
-
-I signed in to Azure using the newly created Riley Burgess account and completed the initial password change process. This demonstrated the initial sign-in process for a newly created Microsoft Entra user.
-
-![Initial Sign In](images/week8-task2-riley-password-change-verified.pngg)
-
-*Figure 7: Initial sign-in and password change completed for the Riley Burgess account.*
-
-### Lab Completion
-
-The AZ900-013 guided lab was successfully completed with a final result of **100%**. The completed activities included modifying the Microsoft Entra tenant, creating a user, creating a group, and completing the initial user sign-in and password change.
+The AZ900-013 guided lab was successfully completed with a final result of **100%**. The completed activities included modifying the Microsoft Entra tenant, creating a Microsoft Entra user, creating a Microsoft Entra group, and completing the user's initial sign-in and password change.
 
 ![AZ900-013 Completed](images/week8-task2-az900-013-completed-100.png)
 
-*Figure 8: AZ900-013 Manage Microsoft Entra Users and Groups guided lab completed with 100%.*
+*Figure 7: AZ900-013 Manage Microsoft Entra Users and Groups guided lab completed with 100%.*
 
 ### Discussion – Users and Groups for an Application Scenario
 
-For an application, individual user accounts can be created for people who need access to the system. Users with similar responsibilities can then be placed into groups. For example, separate groups could be created for administrators, staff and normal users. This can make access management easier because permissions can be assigned based on the user's group instead of managing every user individually.
+For an application, separate user accounts can be created for people who need access to the system. Users with similar responsibilities can then be organised into groups. For example, groups could be created for administrators, staff and normal users. This makes access management easier because permissions can be managed through groups instead of separately for every user.
 
 ### What I Learned
 
-- I learned how Microsoft Entra ID can be used to manage identities in a cloud environment.
-- I learned how to create a new Microsoft Entra user account.
-- I learned how to create a security group and add a user as a member.
-- I learned how tenant information can be viewed and updated.
-- I completed the initial sign-in and password change process for a new user.
-- I understood how groups can make user and access management easier when managing multiple users.
+- I learned how Microsoft Entra ID can be used to manage users and groups.
+- I learned how to create a new Microsoft Entra user.
+- I learned how to create a security group and add a user to the group.
+- I learned how to complete the initial sign-in and password change process for a new user.
+- I understood how groups can make identity and access management easier when managing multiple users.
