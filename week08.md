@@ -44,7 +44,7 @@ I created a new Microsoft Entra user named **Riley Burgess**. The user was creat
 
 I created a Microsoft Entra group named **MyGroup** and added **Riley Burgess** as a member. The lab verification confirmed that the group was created and Riley Burgess was successfully added to it.
 
-![MyGroup with Riley Burgess](images/week8-task2-mygroup-riley-completed.png)
+![MyGroup with Riley Burgess](images/week8-task2-riley-user-created.png)
 
 *Figure 5: MyGroup successfully created with Riley Burgess added as a member.*
 
