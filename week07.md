@@ -139,7 +139,7 @@ I attempted to create the custom role using:
 
 The command returned a **Forbidden / AuthorizationFailed** error. This was expected in the guided lab because the CloudSlice environment restricts permission to create custom Azure roles.
 
-![Custom Role Forbidden Error](images/week4-AZ900-008-custom-role-forbidden.png)
+![Custom Role Forbidden Error](images/week7-AZ900-008-custom-role-forbidden.png)
 
 *Figure: Expected Forbidden error when attempting to create the custom Virtual Machine Operator role.*
 
@@ -148,6 +148,7 @@ The command returned a **Forbidden / AuthorizationFailed** error. This was expec
 The guided lab verification confirmed that all required activities were successfully completed with a score of **100%**.
 
 ![AZ900-008 Completed](images/week7-AZ900-008-completed-100.png)
+![AZ900-008 Completed](images/week7-az900-003-100-percent.png)
 
 *Figure: Successful completion of the AZ900-008 Configure Azure Role-Based Access Control guided lab.*
 
