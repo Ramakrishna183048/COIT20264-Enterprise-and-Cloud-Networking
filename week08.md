@@ -56,7 +56,7 @@ I created a new Microsoft Entra user named **Riley Burgess**. The user was creat
 
 I created a security group named **MyGroup** and added **Riley Burgess** as a member. This showed how groups can be used to organise users and manage access for multiple users.
 
-![MyGroup](images/week8-task2-mygroup-riley-member.png)
+![MyGroup](images/week8-task2-mygroup-riley-completed.png)
 
 *Figure 6: MyGroup successfully created with Riley Burgess added as a member.*
 
@@ -64,7 +64,7 @@ I created a security group named **MyGroup** and added **Riley Burgess** as a me
 
 I signed in to Azure using the newly created Riley Burgess account and completed the initial password change process. This demonstrated the initial sign-in process for a newly created Microsoft Entra user.
 
-![Initial Sign In](images/week8-task2-initial-signin.png)
+![Initial Sign In](images/week8-task2-riley-password-change-verified.pngg)
 
 *Figure 7: Initial sign-in and password change completed for the Riley Burgess account.*
 
