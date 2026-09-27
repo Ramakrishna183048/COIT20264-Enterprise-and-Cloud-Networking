@@ -57,7 +57,7 @@ The output showed that FastEthernet0/0, FastEthernet0/1 and Serial0/0/0 were all
 **Question: How many wires are connected to the switch in the blue rack?**
 
 **Answer:**  
-When I opened the Cloud in the Physical Workspace, I observed the switch inside the blue rack. I could see **two wires connected to the switch**.
+When I examined the Cloud in the Physical Workspace, I observed that **two wires were connected to the switch in the blue rack**.
 
 ---
 
@@ -66,8 +66,7 @@ When I opened the Cloud in the Physical Workspace, I observed the switch inside 
 **Question: What is located on the table to the right of the blue rack?**
 
 **Answer:**  
-When I opened the Primary Network and looked around the physical workspace, I observed the equipment placed on the table to the right of the blue rack.  
-**[Add the exact device/equipment you observe here.]**
+When I examined the Primary Network in the Physical Workspace, I observed a **Configuration Terminal on the table to the right of the blue rack**.
 
 ---
 
@@ -76,7 +75,7 @@ When I opened the Primary Network and looked around the physical workspace, I ob
 **Question: Why are there two orange cables connected to each device?**
 
 **Answer:**  
-In the Secondary Network, I noticed that each device had two orange cables connected. From the physical view, these provide **two separate connections between the devices**, instead of relying on only one connection.
+When I examined the Secondary Network, I noticed two orange cables connected to the network devices. These provide **two separate connections**, so the devices have more than one connection available.
 
 ---
 
@@ -85,7 +84,7 @@ In the Secondary Network, I noticed that each device had two orange cables conne
 **Question: Why is there an oval mesh covering the home network?**
 
 **Answer:**  
-I observed an oval-shaped mesh around the Home Network. This represents the **wireless coverage area** of the wireless router, showing that wireless devices within this area can connect to the network without a physical cable.
+When I examined the Home Network in the Physical Workspace, I noticed an oval-shaped area covering the home network. This represents the **wireless coverage area of the wireless router**, where wireless devices can connect to the network.
 
 ---
 
@@ -94,7 +93,7 @@ I observed an oval-shaped mesh around the Home Network. This represents the **wi
 **Question: Why is there no rack to hold the equipment?**
 
 **Answer:**  
-When I opened the Home Network, I noticed that the devices were not installed in a rack. This is because it represents a **normal home network**, where devices such as the wireless router, computer and printer are usually placed around the home rather than installed in a network rack.
+In the Home Network, I observed that the Family PC, Home PC, printer, wireless router and cable modem were placed around the tables instead of inside a rack. This represents a **normal home network**, where the devices are usually placed around the home and do not require a dedicated equipment rack.
 
 ## Week 10 Reflection
 
