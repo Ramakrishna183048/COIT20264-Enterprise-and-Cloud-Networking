@@ -35,7 +35,7 @@ This repository contains my weekly tutorial and laboratory activities completed 
 - [Week 1 – Introduction and Lab Activities](./week01)
 - [Week 2 – Azure Virtual Machine Creation and Cloud Shell](./week02)
 - [Week 3 – Coming Soon](./week03)
-- [Week 4 – Coming Soon](./week04)
+- [Week 4 – Azure Cost Management](./week04)
 - [Week 5 – Packet Tracer Network Topology Design Practice](./week05)
 - [Week 6 – Site-to-Site IPsec VPN](./week06)
 - [Week 7 – Azure Cloud Shell](./week07)
