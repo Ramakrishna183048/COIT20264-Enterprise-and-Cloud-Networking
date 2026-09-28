@@ -38,7 +38,7 @@ This repository contains my weekly tutorial and laboratory activities completed 
 - [Week 4 – Coming Soon](./week04)
 - [Week 5 – Coming Soon](./week05)
 - [Week 6 – Coming Soon](./week06)
-- [Week 7 – Coming Soon](./week07)
+- [Week 7 – Azure Cloud Shell](./week07)
 - [Week 8 – Azure Resource Management and Microsoft Entra](./week08)
 - [Week 9 – Azure High Availability and Resource Management](./week09)
 - [Week 10 – Connecting a Wired and Wireless LAN](./week10)
