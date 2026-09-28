@@ -41,7 +41,7 @@ This repository contains my weekly tutorial and laboratory activities completed 
 - [Week 7 – Coming Soon](./week07)
 - [Week 8 – Coming Soon](./week08)
 - [Week 9 – Coming Soon](./week09)
-- [Week 10 – Coming Soon](week10)
+- [Week 10 – Week 10 – Connecting a Wired and Wireless LAN](week10)
 
 
 
